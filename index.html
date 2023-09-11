@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>Exchange</h1>
+    <div class="container flex">
+        <div id="table"></div>
+        <div class="area-input">
+            <label for="valueInput">Nhập giá trị:</label>
+            <input type="text" placeholder="Nhập giá trị" value="1" name="valueInput" id="valueInput">
+            <label for="in">Đầu vào:</label>
+            <select name="in" id="in">
+            </select>
+            <label for="out">Đầu ra:</label>
+            <select name="out" id="out">
+            </select>
+            <textarea id="result">result</textarea>
+            <button onclick="actionExchange()">Chuyen doi</button>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
